@@ -1,0 +1,36 @@
+{
+  "name": "hacking.digital",
+  "version": "1.0.0",
+  "description": "Web site for the Hacking Diversity hackathon in Charlottesville, VA.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szul/hacking.digital.git"
+  },
+  "keywords": [
+    "diversity",
+    "hackathon",
+    "uva",
+    "virginia",
+    "charlottesville",
+    "dotnet",
+    "typescript",
+    "javascript",
+    "python",
+    "azure"
+  ],
+  "author": "Michael Szul <michael@szul.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szul/hacking.digital/issues"
+  },
+  "homepage": "https://github.com/szul/hacking.digital#readme",
+  "dependencies": {
+    "metronical.metron": "^2.5.0",
+    "milligram": "^1.3.0",
+    "typescript": "^2.6.2"
+  }
+}
