@@ -1,2 +1,3 @@
-# hacking.digital
-Web site for the Hacking Diversity initiative in Charlottesville, VA
+# Hacking Diversity
+
+Web site for the Hacking Diversity initiative in Charlottesville, VA.
