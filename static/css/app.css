@@ -1,0 +1,9 @@
+.contributors > .row > .column {
+    text-align: center;
+}
+.grouping {
+    margin-top: 10rem;
+}
+.sponsor.logo {
+    width: 20rem;
+}
