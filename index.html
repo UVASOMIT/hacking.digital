@@ -20,13 +20,37 @@
   </head>
   <body data-m-root="">
       <header>
-          <img src="./static/images/uva-hacking-diversity.png" alt="UVA Hacking Diversity" title="UVA Hacking Diversity" />
+          <img src="./static/images/uva-hacking-diversity.png" alt="UVA Hacking Diversity" title="UVA Hacking Diversity" class="float-left" />
+          <div class="float-left">
+            <h4>UVA Hacking Diversity--a <mark>FREE</mark> <a href="https://tomtomfest.com" rel="external">Tom Tom Festival</a> event--is a coding hackathon exclusively for women, African-Americans, Latinos/Latinas, and LGBTQ individuals. Come for the community, the coding, the food, and the swag. Cash prizes/gift cards for the best hacks.</p>
+            <ul>
+                <li>Did we mention FREE?</li>
+                <li>Breakfast, lunch, and dinner INCLUDED</li>
+                <li>Top hacks get MONEY</li>
+                <li>Door prizes and SWAG (e.g., stickers, books)</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
       </header>
       <main>
+        <div class="container spotlight">
+            <div class="row">
+                <div class="column">
+                    <h5>Speaker #1 TBA</h5>
+                </div>
+                <div class="column">
+                    <h5>Speaker #2 TBA</h5>
+                </div>
+                <div class="column">
+                    <h5>MONEY</h5>
+                </div>
+            </div>
+        </div>
+        <p>The <strong>UVA Hacking Diversity</strong> initiative is a <strong>University of Virginia</strong> Provost-funded event meant to help uproot the intentional and unintentional bias prevalent in today's communities and society. This hackathon provides an exclusive event for women, African-Americans, Latinos/Latinas, and the LGBTQ communities--all underrepresented groups in computer science and the software engineering industry. This coding hackathon is meant to encourage participation by minority groups in order to expand diversity in software, so that the applications and algorithms of the future can be free from the biases potentially created by an industry that often lacks fresh, diverse perspectives. The hackathon will be an all day, <mark>free</mark> event at the <a href="http://jeffschoolheritagecenter.org" rel="external">Jefferson School's African-American Heritage Center</a> with breakfast, lunch, and dinner provided. In addition, the best hacks will be awarded with cash prizes (Visa or Amazon gift cards) with other door prizes (e.g., books) being awarded throughout the event.</p>
         <!-- Begin MailChimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
         <style type="text/css">
-            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;margin-top:5rem;}
             /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
         </style>
@@ -48,10 +72,12 @@
               </div>
               <div class="row">
                 <div class="column">
-                    <h5>UVA Codes Hacking Diversity Initiative</h5>
+                    <img src="./static/images/uva-hacking-diversity.png" alt="UVA Hacking Diversity" title="UVA Hacking Diversity" class="host logo" />
                 </div>
                 <div class="column">
-                    <h5>Tom Tom Festival</h5>
+                    <a href="https://tomtomfest.com" rel="external">
+                        <img src="./static/images/sponsors/tomtomfestival.jpg" alt="Tom Tom Festival" title="Tom Tom Festival" class="host logo" />
+                    </a>
                 </div>
               </div>
               <div class="row grouping">
@@ -59,14 +85,20 @@
               </div>
               <div class="row">
                 <div class="column">
-                    <h5>University of Virginia, School of Medicine</h5>
+                    <a href="https://med.virginia.edu" rel="external">
+                        <img src="./static/images/sponsors/uvasom.png" alt="University of Virginia, School of Medicine" title="University of Virginia, School of Medicine" class="sponsor logo" style="background-color:#023456;padding:3px;" />
+                    </a>
                 </div>
                 <div class="column">
-                    <h5>Virginia Foundation for the Humanities</h5>
+                    <a href="http://www.eduiconf.org" rel="external">
+                        <img src="./static/images/sponsors/vffth.png" alt="Virginia Foundation for the Humanities" title="Virginia Foundation for the Humanities" class="sponsor logo" />
+                    </a>
                 </div>
                 <div class="column">
-                    <h5>edUi Conference</h5>
-                    <h6>Celebrating 10 Years!</h6>
+                    <a href="http://www.eduiconf.org" rel="external">
+                        <img src="./static/images/sponsors/eduiconf.jpg" alt="edUi Conference" title="edUi Conference" class="sponsor logo" />
+                    </a>
+                    <h5>Celebrating 10 Years!</h5>
                 </div>
               </div>
               <div class="row">
@@ -74,7 +106,9 @@
                     <h5>University of Virginia, Office of Sponsored Programs</h5>
                 </div>
                 <div class="column">
-                    <h5>University of Virginia, Health System</h5>
+                    <a href="https://uvahealth.com" rel="external">
+                        <img src="./static/images/sponsors/uvahealthsystem.png" alt="UVA Health System" title="UVA Health System" class="sponsor logo" style="background-color:#4786B3;padding:3px;" />
+                    </a>
                 </div>
                 <div class="column">
                     <h5>Women in Computer Science (WiCS)</h5>
@@ -85,8 +119,16 @@
               </div>
               <div class="row">
                 <div class="column">
-                    <img src="./static/images/sponsors/offscreen-symbol.jpg" alt="Offscreen Magazine : The Human Side of Technology" title="Offscreen Magazine : The Human Side of Technology" class="sponsor logo" />
+                    <a href="https://offscreenmag.com" rel="external">
+                        <img src="./static/images/sponsors/offscreen-symbol.jpg" alt="Offscreen Magazine : The Human Side of Technology" title="Offscreen Magazine : The Human Side of Technology" class="sponsor logo" />
+                    </a>
                     <h5>Offscreen Magazine</h5>
+                </div>
+                <div class="column">
+                    <a href="https://nostarch.com" rel="external">
+                        <img src="./static/images/sponsors/nostarch.png" alt="No Starch Press" title="No Starch Press" class="sponsor logo" />
+                    </a>
+                    <h5>No Starch Press</h5>
                 </div>
                 <div class="column">
                     <h5>Pragmatic Programmers</h5>
