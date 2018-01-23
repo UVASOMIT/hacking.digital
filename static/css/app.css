@@ -1,3 +1,20 @@
+header {
+    position: relative;
+    padding-bottom: 8rem;
+}
+header::after {
+    position: absolute;
+    content: "";
+    background-image:  url('../images/women-in-computer-science-large.jpg');
+    background-repeat: no-repeat;
+    background-position: -300px -1200px;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
 header > div {
     width: 48%;
 }
@@ -31,6 +48,11 @@ footer dt {
 footer dt
 , footer dd {
     font-size: 1.5rem;
+}
+div.divider {
+    margin-top: 10rem;
+    padding: 1rem 0 5rem 0;
+    background-color: #eee;
 }
 .contributors > .row > .column
 , .spotlight > .row > .column {
