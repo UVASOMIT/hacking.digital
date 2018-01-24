@@ -15,12 +15,15 @@ header::after {
     right: 0;
     z-index: -1;
 }
-header > div {
-    width: 48%;
-}
 header > div >h4 {
     margin-top: 10rem;
+    margin-left: 3rem;
     line-height: 3.5rem;
+}
+header > div > h2 {
+    margin-top: 8rem;
+    margin-left: 3rem;
+    line-height: 6rem;
 }
 header li {
     font-size: 1.8rem;
@@ -66,6 +69,9 @@ div.divider {
     padding-top: 3rem;
     border-top: 1px solid #ccc;
 }
+.logo {
+    margin-top: 5rem;
+}
 .host.logo {
     width: 40rem;
 }
@@ -74,4 +80,9 @@ div.divider {
 }
 .sponsor.logo {
     width: 20rem;
+}
+@media (min-width: 100.0rem) {
+    header > div {
+        max-width: 48%;
+    }
 }
