@@ -19,11 +19,13 @@ header > div >h4 {
     margin-top: 10rem;
     margin-left: 3rem;
     line-height: 3.5rem;
+    max-width: 70rem;
 }
 header > div > h2 {
     margin-top: 8rem;
     margin-left: 3rem;
     line-height: 6rem;
+    max-width: 70rem;
 }
 header li {
     font-size: 1.8rem;
@@ -33,7 +35,7 @@ main {
     margin-top: 8rem;
 }
 main > p {
-    margin: 5rem 10rem 2rem 10rem;
+    margin: 5rem 3rem 2rem 3rem;
     font-size: 1.8rem;
 }
 mark {
@@ -76,13 +78,13 @@ div.divider {
     width: 40rem;
 }
 .partner.logo {
-    width: 30rem;
+    width: 40rem;
 }
 .sponsor.logo {
     width: 20rem;
 }
-@media (min-width: 100.0rem) {
-    header > div {
-        max-width: 48%;
+@media (min-width: 40.0rem) {
+    main > p {
+        margin: 5rem 10rem 2rem 10rem;
     }
 }
