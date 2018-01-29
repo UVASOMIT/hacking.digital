@@ -19,13 +19,13 @@ header > div >h4 {
     margin-top: 10rem;
     margin-left: 3rem;
     line-height: 3.5rem;
-    max-width: 70rem;
+    max-width: 60rem;
 }
 header > div > h2 {
     margin-top: 8rem;
     margin-left: 3rem;
     line-height: 6rem;
-    max-width: 70rem;
+    max-width: 60rem;
 }
 header li {
     font-size: 1.8rem;
