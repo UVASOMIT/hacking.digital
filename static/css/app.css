@@ -7,25 +7,37 @@ header::after {
     content: "";
     background-image:  url('../images/women-in-computer-science-large.jpg');
     background-repeat: no-repeat;
-    background-position: -300px -1200px;
-    opacity: 0.2;
+    background-position: -500px -800px;
+    opacity: 0.4;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     z-index: -1;
 }
-header > div >h4 {
+header > div.text {
+    max-width: 60rem;
     margin-top: 10rem;
     margin-left: 3rem;
+}
+header > div.text div.clearfix {
+    margin-top: 8rem;
+}
+header > div.text p.tagline {
     line-height: 3.5rem;
     max-width: 60rem;
+    background-color: #f9f9f9;
+    line-height: 3rem;
+    display: inline;
+    font-size: 2rem;
 }
-header > div > h2 {
-    margin-top: 8rem;
-    margin-left: 3rem;
-    line-height: 6rem;
+header > div.text p.title {
     max-width: 60rem;
+    background-color: #666;
+    line-height: 6rem;
+    display: inline;
+    color: #f9f9f9;
+    font-size: 4rem;
 }
 header li {
     font-size: 1.8rem;
@@ -66,6 +78,10 @@ div.divider {
 .spotlight img {
     width: 50%;
 }
+.schedule {
+    background-color: rgb(250, 159, 120);
+    padding: 2rem;
+}
 .grouping {
     margin: 10rem 0 5rem 0;
     padding-top: 3rem;
@@ -74,13 +90,16 @@ div.divider {
 .logo {
     margin-top: 5rem;
 }
-.host.logo {
+.host {
     width: 40rem;
 }
-.partner.logo {
+.partner {
     width: 40rem;
 }
-.sponsor.logo {
+.food-sponsor {
+    width: 25rem;
+}
+.sponsor {
     width: 20rem;
 }
 @media (min-width: 40.0rem) {
