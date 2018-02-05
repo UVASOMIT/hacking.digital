@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/szul/hacking.digital#readme",
   "dependencies": {
+    "feather-icons": "^4.5.0",
     "metronical.metron": "^2.6.0",
     "milligram": "^1.3.0",
     "typescript": "^2.6.2"
