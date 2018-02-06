@@ -69,7 +69,6 @@ footer dt
 table tr th
 , table tr td {
     font-size: 2rem;
-    border-bottom-color: #606c76;
 }
 div.divider {
     margin-top: 10rem;
@@ -80,12 +79,28 @@ div.divider {
 , .spotlight > .row > .column {
     text-align: center;
 }
+.center {
+    text-align: center;
+    max-width: 120px !important;
+    margin-left: 6rem !important;
+    margin-bottom: 10rem !important;
+}
+.wider {
+    max-width: 140rem;
+}
+.lower {
+    margin-top: 5rem;
+}
 .spotlight img {
     width: 50%;
 }
 .schedule {
-    background-color: rgb(255, 185, 155);
+    background-color: #F37321;
+    color: #f8f8f8;
     padding: 2rem;
+}
+.schedule h3 {
+    margin-bottom: 5rem;
 }
 .faq {
     background-color: #4786B3;
@@ -111,9 +126,6 @@ div.divider {
 }
 .sponsor {
     width: 20rem;
-}
-.problems img {
-    width: 8rem;
 }
 @media (min-width: 40.0rem) {
     main > p {
