@@ -85,6 +85,14 @@ div.divider {
     margin-left: 6rem !important;
     margin-bottom: 10rem !important;
 }
+.circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
 .wider {
     max-width: 140rem;
 }
@@ -101,6 +109,35 @@ div.divider {
 }
 .schedule h3 {
     margin-bottom: 5rem;
+}
+.speakers {
+    background-color: #eee;
+    padding: 2rem;
+}
+.speakers .row {
+    margin-bottom: 5rem;
+}
+.speakers .row img {
+    width: 50rem;
+    padding-top: 0.5rem;
+}
+.speakers h3 {
+    margin-bottom: 5rem;
+}
+.card {
+    position: relative;
+    top: -14rem;
+    left: 1rem;
+}
+.card h3
+, .card h4
+, .card p {
+    background-color: #666;
+    line-height: 4rem;
+    display: inline;
+    color: #f8f8f8;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .faq {
     background-color: #4786B3;
@@ -126,6 +163,16 @@ div.divider {
 }
 .sponsor {
     width: 20rem;
+}
+#keating {
+    background-image: url('../images/skeating.jpg');
+    background-position: 80% 40%;
+    background-size: 400px;
+}
+#taylor {
+    background-image: url('../images/rtaylor.jpg');
+    background-position: 80% 20%;
+    background-size: 400px;
 }
 @media (min-width: 40.0rem) {
     main > p {
