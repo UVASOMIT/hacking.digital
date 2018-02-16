@@ -115,7 +115,7 @@ div.divider {
     padding: 2rem;
 }
 .speakers .row {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 .speakers .row img {
     width: 50rem;
@@ -167,6 +167,11 @@ div.divider {
 #keating {
     background-image: url('../images/skeating.jpg');
     background-position: 80% 40%;
+    background-size: 400px;
+}
+#callwood {
+    background-image: url('../images/acallwood.jpg');
+    background-position: 45% 70%;
     background-size: 400px;
 }
 #taylor {
