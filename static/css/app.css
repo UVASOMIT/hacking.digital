@@ -193,6 +193,15 @@ div.divider {
     background-position: 80% 20%;
     background-size: 400px;
 }
+#register {
+    text-align: center;
+}
+#register .button {
+    font-size: 5rem !important;
+    height: 8rem !important;
+    line-height: inherit !important;
+    border-radius: 1rem;
+}
 @media (min-width: 40.0rem) {
     main > p {
         margin: 5rem 10rem 2rem 10rem;
