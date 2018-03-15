@@ -144,10 +144,12 @@ div.divider {
     color: #f8f8f8;
     padding: 2rem;
 }
-.faq .left {
+.faq .left
+, .prizes .left {
     padding-right: 5rem;
 }
-.faq .right {
+.faq .right
+, .prizes .right {
     padding-left: 5rem;
 }
 .faq dt {
@@ -157,6 +159,13 @@ div.divider {
 .faq dd {
     font-size: 1.6rem;
     margin-bottom: 4rem;
+}
+.prizes {
+    background-color:rgb(244, 208, 63);
+    padding: 2rem;
+}
+.twitter-image {
+    width: 30rem;
 }
 .grouping {
     margin: 10rem 0 5rem 0;
