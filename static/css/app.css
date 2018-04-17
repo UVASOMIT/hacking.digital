@@ -211,6 +211,9 @@ div.divider {
     line-height: inherit !important;
     border-radius: 1rem;
 }
+[data-m-page="Home"] {
+    margin: 3rem;
+}
 @media (min-width: 40.0rem) {
     main > p {
         margin: 5rem 10rem 2rem 10rem;
