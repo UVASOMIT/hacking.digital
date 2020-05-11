@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/szul/hacking.digital.git"
+    "url": "git+https://github.com/UVASOMIT/hacking.digital.git"
   },
   "keywords": [
     "diversity",
@@ -25,9 +25,9 @@
   "author": "Michael Szul <michael@szul.us>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/szul/hacking.digital/issues"
+    "url": "https://github.com/UVASOMIT/hacking.digital/issues"
   },
-  "homepage": "https://github.com/szul/hacking.digital#readme",
+  "homepage": "https://github.com/UVASOMIT/hacking.digital#readme",
   "dependencies": {
     "feather-icons": "^4.5.0",
     "metronical.metron": "^2.6.0",
